@@ -1,0 +1,140 @@
+body {
+	max-width: 1024px;
+	margin: 10px ;
+	background-color: #18191B;
+	background-image: url(https://steamuserimages-a.akamaihd.net/ugc/963107882071950892/F5C6F71D54A20087B9EB2585BE3852651C33703C/?imw=512&amp;imh=254&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true);
+	color:white;
+	font-size: .9em;
+}
+
+* {box-sizing: border-box;}
+
+.product-item {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 10px 5px 10px;
+  border: 10px solid #eee;
+  background: white;
+  font-family: "Open Sans";
+  overflow: hidden;
+  transition: .4s linear;
+
+}
+.product-img {transition: 1s ease-in-out;}
+.product-img:hover {transform: scale(1.1);}
+.product-img img {
+  display: block;
+  width: 100%;
+
+}
+.product-list {margin-top: 25px;}
+.product-list h3 {
+  font-weight: 700;
+  color: #39404B;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 2;
+
+  
+}
+.price {
+  color: #E34D38;
+  display: block-inline;
+  margin-bottom: 12px;
+}
+.stars {
+  height: 14px;
+  line-height: 14px;
+  margin: 7px 0;
+}
+.stars:before {
+  content: "\f005\f005\f005\f005\f006";
+  color: #EFB71C;
+  font-size: 14px;
+  font-family: FontAwesome;
+}
+.actions {
+  border-top: 1px solid #eee;
+  padding-top: 4px;
+  font-size: 13px;
+  height: 30px;
+  line-height: 30px;
+}
+.actions:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.add-to-cart, .add-to-links {float: left;}
+.cart-button {
+  text-decoration: none;
+  color: #8C877C;
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+  transition: .4s linear;
+}
+.cart-button:before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+.add-to-cart:hover .cart-button, .wishlist:hover, .compare:hover {color: #E34D38;}
+.wishlist, .compare {
+  color: #8C877C;
+  padding-left: 20px;
+  transition: .4s linear;
+}
+.wishlist:after, .compare:after {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 13px;
+}
+.wishlist:after {content: "\f004";}
+ .compare:after {content: "\f079";}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1px;
+	background-color: black;
+	color: white;
+}
+table{
+	margin: 5px;
+	padding: 5px;
+
+}
+td{
+	padding:10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+nav li {
+	display: inline;	
+}
+nav a {
+	display: inline-block;
+	padding: 9px 20px 5px 20px;
+	border-radius:20px;
+	text-decoration: none;	
+	font-family: Titillium, Arial, sans-serif;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,1);
+	text-transform:uppercase;
+	font-size: .9em;
+	letter-spacing: .1em;
+	background-color: rgb(232,113,35);
+	background: -webkit-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: -moz-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: -o-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	border: 1px solid rgb(232,113,35);
+	margin-right: 5px;
+}
